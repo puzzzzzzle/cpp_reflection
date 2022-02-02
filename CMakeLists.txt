@@ -1,6 +1,8 @@
-cmake_minimum_required(VERSION <specify CMake version here>)
-project(cpp_annoation_reflect)
+cmake_minimum_required(VERSION 3.0)
+project(cpp_reflect)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(cpp_annoation_reflect main.cpp)
+add_subdirectory("src/benchmarks")
+add_subdirectory("src/examples")
+add_subdirectory("src/unittests")

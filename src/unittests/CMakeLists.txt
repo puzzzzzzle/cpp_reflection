@@ -1,4 +1,4 @@
 aux_source_directory(. cpps)
 include_directories(.)
 
-add_executable(examples ${cpps})
+add_executable(unittests ${cpps})
